@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <title>Score Keeper</title>
+</head>
+<body>
+   <section class="section">
+
+<div class="container">
+<div class="column is-flex is-align-items-center" style="height: 100vh;">
+    <div class="column is-half is-offset-one-quarter">
+
+
+        <div class="card">
+             <div class="card-image"> 
+                <figure class="image is2by1"> 
+                    <img src="https://images4.alphacoders.com/135/1351975.jpeg" alt="">
+                </figure>
+            </div>
+            <header class="card-header">
+
+              <p class="card-header-title " style="background-color: #96d9db;">Ping Pong Score Keeper</p>
+              <!-- <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button> -->
+            
+            </header>
+
+
+            <!-- <div class="card-image"> 
+                <figure class="image is2by1"> 
+                    <img src="https://images4.alphacoders.com/135/1351975.jpeg" alt="">
+                </figure>
+            </div> -->
+
+
+
+
+
+
+            <div class="card-content"  style="background-color: #e7e972;">
+              <div class="content">
+
+                <h1 class="title is-1"> <span id="p1display">0 </span> to   <span id="p2display"> 0</span> </h1>
+                <p class="subtitle">Use to buttons below to Score!! </p>
+                <label for="" class="label is-large is-inline">Playing To</label>
+                 <div class="select is-rounded">
+
+
+                    <select name="" id="playto" style="background-color: #e8f3f3;">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    
+                    </select>
+
+
+
+
+
+
+                 </div>
+            </div>
+            <footer class="card-footer">
+              <button id="p1button" class="is-primary button card-footer-item is-large">+1 Player1</button>
+              <button id="p2button" class="is-info button card-footer-item is-large">+1 Player2</button>
+              <button id="resetbutton" class="is-danger button card-footer-item is-large">Reset</button>
+              <!-- <a href="#" class="card-footer-item">Save</a>
+              <a href="#" class="card-footer-item">Edit</a>
+              <a href="#" class="card-footer-item">Delete</a> -->
+            </footer>
+          </div>
+     
+
+    </div>
+</div>
+
+</div>
+</section>
+<!-- <h1> <span id="p1display">0 </span> to   <span id="p2display"> 0</span> </h1> -->
+
+<!-- <button id="p1button">+1 player one</button>
+<button id="p2button">+1 player two </button>
+<button id="resetbutton"> Reset</button> -->
+<script src="score.js"></script>
+</body>
+</html>
